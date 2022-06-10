@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d6e2f0;
+}
+
+h1,
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  min-width: 30em;
+  max-width: 50em;
+  width: 70%;
+  background-color: white;
+  margin: 3em auto;
+  padding: 2em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card img {
+  max-width: 40em;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2.5em;
+}
+
+.card h1 {
+  color: #1f3251;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.card p {
+  color: #7b879d;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
